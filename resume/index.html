@@ -1,16 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Tenerowicz Resume</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      text-align: center;
+      background: #f8f8f8;
+    }
+    .resume-container {
+      width: 100%;
+      height: 100vh;
+    }
+    embed {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
-  <div style="text-align: center">
-    <iframe 
-      frameborder="0" 
-      width="900" 
-      height="1100" 
-      overflow="scroll" 
-      src="https://docs.google.com/document/d/e/2PACX-1vQv1pgy5_uLqXHGLGz7XHDuflsbJYORXnR5_p_Y9NNcKPcxvG98QIkQ609wAZQb74m8LP1GyttC9hBO/pub?embedded=true">
-    </iframe>
+  <div class="resume-container">
+    <embed src="resume.pdf" type="application/pdf" />
   </div>
+
 </body>
 </html>
